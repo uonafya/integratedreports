@@ -12,7 +12,7 @@
  * Copyright (C) OpenMRS, LLC.  All Rights Reserved.
  */
 
-package org.openmrs.module.keaddonexample;
+package org.openmrs.module.integratedreports;
 
 import org.apache.commons.logging.Log; 
 import org.apache.commons.logging.LogFactory;

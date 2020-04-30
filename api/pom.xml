@@ -4,14 +4,14 @@
 
 	<parent>
 		<groupId>org.openmrs.module</groupId>
-		<artifactId>keaddonexample</artifactId>
+		<artifactId>integratedreports</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>keaddonexample-api</artifactId>
+	<artifactId>integratedreports-api</artifactId>
 	<packaging>jar</packaging>
-	<name>KenyaEMR Add-on Example Module API</name>
-	<description>API project for KenyaEMR Add-on Example</description>
+	<name>KenyaEMR Integrated Services Reports Module API</name>
+	<description>API project for KenyaEMR Integrated Services Reports</description>
 
 	<dependencies>
 
@@ -37,7 +37,7 @@
 			<artifactId>idgen-api</artifactId>
 		</dependency>
 
-		<dependency>
+		<!--<dependency>
 			<groupId>org.openmrs.module</groupId>
 			<artifactId>kenyacore-api</artifactId>
 		</dependency>
@@ -47,7 +47,7 @@
 			<artifactId>kenyacore-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
+-->
 		<dependency>
 			<groupId>org.openmrs.module</groupId>
 			<artifactId>metadatadeploy-api</artifactId>

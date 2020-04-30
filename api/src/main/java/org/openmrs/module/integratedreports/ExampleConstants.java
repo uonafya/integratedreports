@@ -12,7 +12,7 @@
  * Copyright (C) OpenMRS, LLC.  All Rights Reserved.
  */
 
-package org.openmrs.module.keaddonexample;
+package org.openmrs.module.integratedreports;
 
 /**
  * Metadata constants
@@ -22,10 +22,10 @@ public class ExampleConstants {
 	/**
 	 * Module ID
 	 */
-	public static final String MODULE_ID = "keaddonexample";
+	public static final String MODULE_ID = "integratedreports";
 
 	/**
 	 * App IDs
 	 */
-	public static final String APP_EXAMPLE = MODULE_ID + ".example";
+	public static final String APP_EXAMPLE = MODULE_ID + ".Integrated Reports";
 }

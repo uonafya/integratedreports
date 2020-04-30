@@ -12,7 +12,7 @@
  * Copyright (C) OpenMRS, LLC.  All Rights Reserved.
  */
 
-package org.openmrs.module.keaddonexample.metadata;
+package org.openmrs.module.integratedreports.metadata;
 
 import org.openmrs.module.metadatadeploy.bundle.AbstractMetadataBundle;
 import org.springframework.stereotype.Component;
@@ -23,7 +23,7 @@ import static org.openmrs.module.metadatadeploy.bundle.CoreConstructors.*;
  * Example metadata bundle
  */
 @Component
-public class ExampleMetadata extends AbstractMetadataBundle {
+public class IntegratedReportsMetadata extends AbstractMetadataBundle {
 
 	public static class _EncounterType {
 		public static final String EXAMPLE = "d69dedbd-3933-4e44-8292-bea939ce980a";

@@ -12,13 +12,12 @@
  * Copyright (C) OpenMRS, LLC.  All Rights Reserved.
  */
 
-package org.openmrs.module.keaddonexample.calculation;
+package org.openmrs.module.integratedreports.calculation;
 
 import org.openmrs.calculation.BaseCalculation;
 import org.openmrs.calculation.patient.PatientCalculation;
 import org.openmrs.calculation.patient.PatientCalculationContext;
 import org.openmrs.calculation.result.CalculationResultMap;
-import org.openmrs.module.kenyacore.calculation.BooleanResult;
 
 import java.util.Collection;
 import java.util.Map;
@@ -33,9 +32,9 @@ public class EligibleForExampleProgramCalculation extends BaseCalculation implem
 		CalculationResultMap ret = new CalculationResultMap();
 
 		// Everybody eligible!
-		for (int ptId : cohort) {
-			ret.put(ptId, new BooleanResult(true, this));
-		}
+		//for (int ptId : cohort) {
+		//	ret.put(ptId, new BooleanResult(true, this));
+		//}//
 
 		return ret;
 	}
