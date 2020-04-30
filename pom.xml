@@ -3,21 +3,22 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.openmrs.module</groupId>
-	<artifactId>keaddonexample</artifactId>
+	<artifactId>integratedreports</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>KenyaEMR Add-on Example Module</name>
-	<description>Example of adding content to KenyaEMR</description>
+	<name>KenyaEMR Integrated Services Reports</name>
+	<description>Integration of AfyaEHMS reports into KenyaEMR</description>
 
 	<organization>
-		<name>I-TECH</name>
-		<url>http://www.go2itech.org</url>
+		<name>Nicholas Ingosi Magaja</name>
+		<url>https://healthit.uonbi.ac.ke/</url>
 	</organization>
 
 	<scm>
-		<connection>scm:git:git@github.com:I-TECH/openmrs-module-keaddonexample.git</connection>
-		<developerConnection>scm:git:git@github.com:I-TECH/openmrs-module-keaddonexample.git</developerConnection>
-		<url>scm:git:git@github.com:I-TECH/openmrs-module-keaddonexample.git</url>
+		<connection>scm:git:https://github.com/uonafya/integratedreports.git</connection>
+		<developerConnection>scm:git:https://github.com/uonafya/integratedreports.git</developerConnection>
+		<url>https://github.com/uonafya/integratedreports.git</url>
+		<tag>HEAD</tag>
 	</scm>
 
 	<modules>
@@ -26,7 +27,7 @@
 	</modules>
 
 	<properties>
-		<openMRSVersion>1.9.7</openMRSVersion>
+		<openMRSVersion>1.9.8</openMRSVersion>
 
 		<!-- Module dependencies -->
 		<appframeworkVersion>2.1</appframeworkVersion>
