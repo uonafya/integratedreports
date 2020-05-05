@@ -30,13 +30,15 @@
 		<openMRSVersion>1.9.8</openMRSVersion>
 
 		<!-- Module dependencies -->
-		<appframeworkVersion>2.1</appframeworkVersion>
-		<calculationVersion>1.0</calculationVersion>
+		<appframeworkVersion>2.2.1</appframeworkVersion>
+		<calculationVersion>1.1</calculationVersion>
 		<htmlformentryVersion>2.2.1</htmlformentryVersion>
 		<idgenVersion>2.6</idgenVersion>
+		<kenyacoreVersion>2.4.1</kenyacoreVersion>
+		<kenyadqVersion>1.2</kenyadqVersion>
+		<kenyauiVersion>2.1.1</kenyauiVersion>
 		<kenyacoreVersion>2.0-SNAPSHOT</kenyacoreVersion>
 		<kenyaemrVersion>14.1-SNAPSHOT</kenyaemrVersion>
-		<kenyauiVersion>2.0-SNAPSHOT</kenyauiVersion>
 		<metadatadeployVersion>1.1</metadatadeployVersion>
 		<metadatasharingVersion>1.1.8</metadatasharingVersion>
 		<reportingVersion>0.8.1</reportingVersion>
@@ -222,8 +224,13 @@
 			<name>OpenMRS Nexus Repository</name>
 			<url>http://mavenrepo.openmrs.org/nexus/content/repositories/public</url>
 		</repository>
+		<repository>
+			<id>central</id>
+			<name>Maven Repository Switchboard</name>
+			<layout>default</layout>
+			<url>http://repo1.maven.org/maven2</url>
+		</repository>
 	</repositories>
-
 	<pluginRepositories>
 		<pluginRepository>
 			<id>openmrs-repo</id>

@@ -17,7 +17,7 @@ package org.openmrs.module.integratedreports;
 /**
  * Metadata constants
  */
-public class ExampleConstants {
+public class IntegratedReportsConstants {
 
 	/**
 	 * Module ID
@@ -27,5 +27,5 @@ public class ExampleConstants {
 	/**
 	 * App IDs
 	 */
-	public static final String APP_EXAMPLE = MODULE_ID + ".Integrated Reports";
+	public static final String APP_ID = MODULE_ID + ".Integrated Reports";
 }

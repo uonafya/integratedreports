@@ -21,49 +21,49 @@ import org.openmrs.module.ModuleActivator;
 /**
  * This class contains the logic that is run every time this module is either started or stopped.
  */
-public class ExampleActivator implements ModuleActivator {
+public class IntegratedReportsActivator implements ModuleActivator {
 	
-	protected static final Log log = LogFactory.getLog(ExampleActivator.class);
+	protected static final Log log = LogFactory.getLog(IntegratedReportsActivator.class);
 
 	/**
 	 * @see ModuleActivator#willRefreshContext()
 	 */
 	public void willRefreshContext() {
-		log.info("Refreshing KenyaEMR Add-on Example Module");
+		log.info("Refreshing KenyaEMR Add-on integratedreports Module");
 	}
 	
 	/**
 	 * @see ModuleActivator#contextRefreshed()
 	 */
 	public void contextRefreshed() {
-		log.info("KenyaEMR Add-on Example Module refreshed");
+		log.info("KenyaEMR Add-on integratedreports Module refreshed");
 	}
 	
 	/**
 	 * @see ModuleActivator#willStart()
 	 */
 	public void willStart() {
-		log.info("Starting KenyaEMR Add-on Example Module");
+		log.info("Starting KenyaEMR Add-on integratedreports Module");
 	}
 	
 	/**
 	 * @see ModuleActivator#started()
 	 */
 	public void started() {
-		log.info("KenyaEMR Add-on Example Module started");
+		log.info("KenyaEMR Add-on integratedreports Module started");
 	}
 	
 	/**
 	 * @see ModuleActivator#willStop()
 	 */
 	public void willStop() {
-		log.info("Stopping KenyaEMR Add-on Example Module");
+		log.info("Stopping KenyaEMR Add-on integratedreports Module");
 	}
 	
 	/**
 	 * @see ModuleActivator#stopped()
 	 */
 	public void stopped() {
-		log.info("KenyaEMR Add-on Example Module stopped");
+		log.info("KenyaEMR Add-on integratedreports Module stopped");
 	}
 }

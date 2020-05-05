@@ -15,7 +15,7 @@
 package org.openmrs.module.integratedreports.page.controller.example;
 
 import org.openmrs.Patient;
-import org.openmrs.module.keaddonexample.ExampleConstants;
+import org.openmrs.module.integratedreports.ExampleConstants;
 import org.openmrs.module.kenyaui.annotation.AppPage;
 import org.openmrs.ui.framework.UiUtils;
 import org.openmrs.ui.framework.page.PageModel;
